@@ -1,0 +1,13 @@
+class sumAN
+{
+      public static void main(String args[])
+      {
+            int firstnumber,secnumber,sum;
+ 
+            firstnumber=Integer.parseInt(args[0]);
+            secnumber=Integer.parseInt(args[1]);
+ 
+            sum=firstnumber+secnumber;
+            System.out.println("sum of " + firstnumber + " and " + secnumber +" is " +sum);
+      }
+}
